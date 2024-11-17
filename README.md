@@ -80,11 +80,19 @@ DB_NAME=your_db_name
 The backend exposes the following API endpoints:
 
 /professors: Manage professors.
+
 /projects: Manage projects.
+
 /grants: Manage grants.
+
 /fundingagencies: Manage funding agencies.
+
 /convert_project_to_publication: Convert projects to publications.
+
 /assign_professor_to_project: Associate professors with projects.
+
 /use_grant/<grant_id>: Deduct grant usage.
+
 /professor_projects: View professor-project associations.
+
 /project_audit_log: View project audit logs.
