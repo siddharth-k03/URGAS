@@ -62,7 +62,12 @@ DB_NAME=your_db_name
  ```
 
 3. Set up the database:
-- Create a MySQL database and populate it with the required tables and stored procedures.
+
+ Create the MySQL database and populate it with the provided schema and stored procedures:
+ ```
+ -- Copy and execute the schema file provided in `URGAS_setup.sql`.
+ ```
+ Verify that tables, triggers, views, and stored procedures have been created correctly.
 
 4. Run the backend server:
  ```bash
